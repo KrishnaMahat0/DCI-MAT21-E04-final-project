@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <title>Krishna Mahato contact us</title>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+          
+    </head>
+
+    <body>
+        
+        <header class="flex-box"> <!--header-->
+            <div class="flex-item-1">
+                <img src="/images/logo-kris.png" alt="logo here" width="150" height="150">
+            </div>
+        
+            <div class="flex-item-2">
+            <h1>Hello! I'am Krishna Mahato</h1>
+            <h2>~ a future Web Developer</h2>
+            <h2>just getting ready to create wonderful website expeciences for you</h2>
+            </div>
+        </header>
+
+        <nav> <!--navigation bar-->
+            <ul class="nav1">
+                <li>
+                    <a href="/index.html">My Portfolio</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="/aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="/aboutme.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <br>
+        <section id="contact"> <!--form starts here-->
+            <form id="contactForm"> 
+                    <label for="contactUs">Please fill in the following contact form. We will get back to you within next 24 hours. </label>
+                    <br>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">other</label>
+                     <br>
+
+                    
+                        <label for="fNmae">First Name:</label>
+                        <input type="text" name="fName" value="Max" > <br>
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lname" value="Mustermann">
+                     <br>
+                    
+                        <label for="dob">Date of Birth</label>
+                        <input type="date">
+                     <br>
+                    
+                        <label for="address">Your Current Address:</label>
+                     <br>
+                            <label for="country">Choose your country</label>
+                            <select name="country" id="country">
+                            <option value="germany">Germany</option>
+                            <option value="greatBritain">Great Britain</option>
+                            <option value="switzerland">Switzerland</option>
+                            <option value="france">France</option>
+                            <option value="poland">Poland</option>
+                            </select>
+                    
+                         <br>
+                        
+                        <label for="address">Street name</label>
+                        <input type="text" name="address">
+                          <br>
+                        
+                    
+                        <label for="plz">PLZ</label>
+                        <input type="number" name="plz">
+                        <label for="city">City</label>
+                        <input type="text" name="city">
+                     <br>
+                    
+                        <label for="tel">Telephone Nr.</label>
+                        <input type="tel" value="+49 12345678910">
+                     <br>
+                    
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="example@seamail.com">
+                     <br>
+                    
+                        <label for="message">Your Message:</label> <br>
+                        <textarea name="message" cols="30" rows="5"></textarea>
+                    <br><br>
+                    
+                        <input type="checkbox">
+                        <label for="checkbox">I agree to data privacy terms and conditions</label>
+                     <br> <br>
+                    <input type="submit" value="Submit Now">
+                
+            </form>
+      
+
+        </section>
+
+            
+
+       
+
+    </body>
+</html>
